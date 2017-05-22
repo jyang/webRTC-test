@@ -2,6 +2,10 @@
   "name": "streamroot-test-recrutement",
   "version": "0.0.1",
   "description": "Streamroot's test for applicant developpers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:streamroot/webRTC-test.git"
+  },
   "main": "index.js",
   "scripts": {
     "http-server": "node ./node_modules/http-server/bin/http-server -p 8089",
