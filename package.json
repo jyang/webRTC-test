@@ -9,8 +9,8 @@
   "main": "index.js",
   "scripts": {
     "http-server": "node ./node_modules/http-server/bin/http-server -p 8089",
-    "signaling": "node ./app/server/signalingServer.js &",
-    "start":"npm run signaling && npm run http-server",
+    "signaling": "node ./app/server/signalingServer.js",
+    "start":"(npm run signaling &) && npm run http-server",
     "styleCheck": "./node_modules/jshint/bin/jshint app/ && ./node_modules/echint/bin/echint -v && echo 'Style check OK'",
     "test": "node ./node_modules/mocha/bin/mocha"
   },
