@@ -10,8 +10,12 @@
     "styleCheck": "./node_modules/jshint/bin/jshint app/ && ./node_modules/echint/bin/echint -v && echo 'Style check OK'",
     "test": "node ./node_modules/mocha/bin/mocha"
   },
-  "author": "StyMaar",
-  "license": "GPL",
+  "author": {
+    "email": "dev@streamroot.io",
+    "name": "Streamroot",
+    "url": "https://www.streamroot.io"
+  },
+  "license": "GPL-3.0",
   "dependencies": {
     "ws": "^0.8.0"
   },
